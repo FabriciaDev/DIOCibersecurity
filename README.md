@@ -1,2 +1,2 @@
 # DIOCibersecurity
-Repositório contendo o conteúdo do curso de cibersecurity da DIO 
+Repositório contendo os projetos do curso de cibersecurity da DIO. 
